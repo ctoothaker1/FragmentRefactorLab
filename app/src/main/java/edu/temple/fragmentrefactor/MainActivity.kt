@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         val nameEditText = findViewById<EditText>(R.id.nameEditText)
         val changeButton = findViewById<Button>(R.id.changeButton)
 
+
+
         changeButton.setOnClickListener {
             val name = nameEditText.text
 
